@@ -30,3 +30,191 @@
 2025-05-29 09:16:57,980 - INFO - 127.0.0.1 - - [29/May/2025 09:16:57] "GET /info HTTP/1.1" 200 -
 2025-05-29 09:17:04,076 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
 2025-05-29 09:17:04,077 - INFO - 127.0.0.1 - - [29/May/2025 09:17:04] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:02,265 - INFO - Verificando servidores al inicio...
+2025-05-29 10:05:02,294 - INFO - ✅ Servidor http://localhost:5001 activo
+2025-05-29 10:05:02,303 - INFO - ✅ Servidor http://localhost:5002 activo
+2025-05-29 10:05:02,305 - INFO - Balanceador de carga iniciado en http://localhost:8080
+2025-05-29 10:05:02,307 - INFO - Puedes verificar el estado de los servidores en http://localhost:8080/status
+2025-05-29 10:05:02,334 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.21.197.28:8080
+2025-05-29 10:05:02,334 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-29 10:05:06,688 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/
+2025-05-29 10:05:06,692 - INFO - 127.0.0.1 - - [29/May/2025 10:05:06] "GET / HTTP/1.1" 200 -
+2025-05-29 10:05:11,884 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:05:11,885 - INFO - 127.0.0.1 - - [29/May/2025 10:05:11] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:13,698 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/tasks/0/delete
+2025-05-29 10:05:13,699 - INFO - 127.0.0.1 - - [29/May/2025 10:05:13] "[32mPOST /tasks/0/delete HTTP/1.1[0m" 302 -
+2025-05-29 10:05:13,952 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/
+2025-05-29 10:05:13,954 - INFO - 127.0.0.1 - - [29/May/2025 10:05:13] "GET / HTTP/1.1" 200 -
+2025-05-29 10:05:19,771 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:05:19,772 - INFO - 127.0.0.1 - - [29/May/2025 10:05:19] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:25,080 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:05:25,081 - INFO - 127.0.0.1 - - [29/May/2025 10:05:25] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:29,768 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:05:29,769 - INFO - 127.0.0.1 - - [29/May/2025 10:05:29] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:35,088 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:05:35,090 - INFO - 127.0.0.1 - - [29/May/2025 10:05:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:39,776 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:05:39,777 - INFO - 127.0.0.1 - - [29/May/2025 10:05:39] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:45,083 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:05:45,085 - INFO - 127.0.0.1 - - [29/May/2025 10:05:45] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:49,767 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:05:49,769 - INFO - 127.0.0.1 - - [29/May/2025 10:05:49] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:55,070 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:05:55,072 - INFO - 127.0.0.1 - - [29/May/2025 10:05:55] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:05:59,767 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:05:59,768 - INFO - 127.0.0.1 - - [29/May/2025 10:05:59] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:06:05,100 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:06:05,101 - INFO - 127.0.0.1 - - [29/May/2025 10:06:05] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:06:09,766 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:06:09,767 - INFO - 127.0.0.1 - - [29/May/2025 10:06:09] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:06:36,080 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:06:36,081 - INFO - 127.0.0.1 - - [29/May/2025 10:06:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:07:35,779 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:07:35,782 - INFO - 127.0.0.1 - - [29/May/2025 10:07:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:08:36,087 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:08:36,088 - INFO - 127.0.0.1 - - [29/May/2025 10:08:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:09:35,764 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:09:35,765 - INFO - 127.0.0.1 - - [29/May/2025 10:09:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:10:36,095 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:10:36,096 - INFO - 127.0.0.1 - - [29/May/2025 10:10:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:11:35,790 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:11:35,791 - INFO - 127.0.0.1 - - [29/May/2025 10:11:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:12:36,068 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:12:36,070 - INFO - 127.0.0.1 - - [29/May/2025 10:12:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:13:35,770 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:13:35,771 - INFO - 127.0.0.1 - - [29/May/2025 10:13:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:14:36,081 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:14:36,083 - INFO - 127.0.0.1 - - [29/May/2025 10:14:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:15:35,770 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:15:35,771 - INFO - 127.0.0.1 - - [29/May/2025 10:15:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:16:36,102 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:16:36,103 - INFO - 127.0.0.1 - - [29/May/2025 10:16:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:17:35,793 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:17:35,795 - INFO - 127.0.0.1 - - [29/May/2025 10:17:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:18:36,086 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:18:36,088 - INFO - 127.0.0.1 - - [29/May/2025 10:18:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:19:35,770 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:19:35,771 - INFO - 127.0.0.1 - - [29/May/2025 10:19:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:20:36,079 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:20:36,081 - INFO - 127.0.0.1 - - [29/May/2025 10:20:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:21:35,779 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:21:35,781 - INFO - 127.0.0.1 - - [29/May/2025 10:21:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:22:36,090 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:22:36,091 - INFO - 127.0.0.1 - - [29/May/2025 10:22:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:23:35,781 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:23:35,782 - INFO - 127.0.0.1 - - [29/May/2025 10:23:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:24:36,097 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:24:36,098 - INFO - 127.0.0.1 - - [29/May/2025 10:24:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:25:35,774 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:25:35,775 - INFO - 127.0.0.1 - - [29/May/2025 10:25:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:26:36,115 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:26:36,117 - INFO - 127.0.0.1 - - [29/May/2025 10:26:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:27:35,771 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:27:35,773 - INFO - 127.0.0.1 - - [29/May/2025 10:27:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:28:36,092 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:28:36,094 - INFO - 127.0.0.1 - - [29/May/2025 10:28:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:29:35,767 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:29:35,769 - INFO - 127.0.0.1 - - [29/May/2025 10:29:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:30:36,079 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:30:36,081 - INFO - 127.0.0.1 - - [29/May/2025 10:30:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:31:35,777 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:31:35,779 - INFO - 127.0.0.1 - - [29/May/2025 10:31:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:32:36,080 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:32:36,082 - INFO - 127.0.0.1 - - [29/May/2025 10:32:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:33:35,764 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:33:35,765 - INFO - 127.0.0.1 - - [29/May/2025 10:33:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:34:36,077 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:34:36,078 - INFO - 127.0.0.1 - - [29/May/2025 10:34:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:35:36,112 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:35:36,114 - INFO - 127.0.0.1 - - [29/May/2025 10:35:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:36:35,784 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:36:35,785 - INFO - 127.0.0.1 - - [29/May/2025 10:36:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:36:40,077 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:36:40,078 - INFO - 127.0.0.1 - - [29/May/2025 10:36:40] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:36:44,764 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:36:44,765 - INFO - 127.0.0.1 - - [29/May/2025 10:36:44] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:36:50,087 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:36:50,089 - INFO - 127.0.0.1 - - [29/May/2025 10:36:50] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:36:54,765 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:36:54,767 - INFO - 127.0.0.1 - - [29/May/2025 10:36:54] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:37:00,077 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:37:00,078 - INFO - 127.0.0.1 - - [29/May/2025 10:37:00] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:37:04,761 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:37:04,762 - INFO - 127.0.0.1 - - [29/May/2025 10:37:04] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:37:10,186 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:37:10,188 - INFO - 127.0.0.1 - - [29/May/2025 10:37:10] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:37:14,772 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:37:14,773 - INFO - 127.0.0.1 - - [29/May/2025 10:37:14] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:37:20,075 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:37:20,076 - INFO - 127.0.0.1 - - [29/May/2025 10:37:20] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:37:24,769 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:37:24,770 - INFO - 127.0.0.1 - - [29/May/2025 10:37:24] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:37:30,072 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:37:30,073 - INFO - 127.0.0.1 - - [29/May/2025 10:37:30] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:37:34,763 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:37:34,765 - INFO - 127.0.0.1 - - [29/May/2025 10:37:34] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:38:36,088 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:38:36,090 - INFO - 127.0.0.1 - - [29/May/2025 10:38:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:39:35,790 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:39:35,791 - INFO - 127.0.0.1 - - [29/May/2025 10:39:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:40:36,096 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:40:36,101 - INFO - 127.0.0.1 - - [29/May/2025 10:40:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:41:35,780 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:41:35,782 - INFO - 127.0.0.1 - - [29/May/2025 10:41:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:42:36,076 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:42:36,078 - INFO - 127.0.0.1 - - [29/May/2025 10:42:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:43:35,773 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:43:35,774 - INFO - 127.0.0.1 - - [29/May/2025 10:43:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:44:36,099 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:44:36,101 - INFO - 127.0.0.1 - - [29/May/2025 10:44:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:45:35,782 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:45:35,783 - INFO - 127.0.0.1 - - [29/May/2025 10:45:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:46:36,125 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:46:36,127 - INFO - 127.0.0.1 - - [29/May/2025 10:46:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:47:35,795 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:47:35,796 - INFO - 127.0.0.1 - - [29/May/2025 10:47:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:48:36,094 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:48:36,095 - INFO - 127.0.0.1 - - [29/May/2025 10:48:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:49:35,772 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:49:35,773 - INFO - 127.0.0.1 - - [29/May/2025 10:49:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:50:36,119 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:50:36,121 - INFO - 127.0.0.1 - - [29/May/2025 10:50:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:51:35,790 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:51:35,796 - INFO - 127.0.0.1 - - [29/May/2025 10:51:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:52:36,115 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:52:36,127 - INFO - 127.0.0.1 - - [29/May/2025 10:52:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:53:35,772 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:53:35,774 - INFO - 127.0.0.1 - - [29/May/2025 10:53:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:54:36,093 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:54:36,095 - INFO - 127.0.0.1 - - [29/May/2025 10:54:36] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:55:35,773 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:55:35,774 - INFO - 127.0.0.1 - - [29/May/2025 10:55:35] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:07,103 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:56:07,105 - INFO - 127.0.0.1 - - [29/May/2025 10:56:07] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:09,075 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:56:09,076 - INFO - 127.0.0.1 - - [29/May/2025 10:56:09] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:14,399 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:56:14,401 - INFO - 127.0.0.1 - - [29/May/2025 10:56:14] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:19,074 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:56:19,076 - INFO - 127.0.0.1 - - [29/May/2025 10:56:19] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:24,380 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:56:24,381 - INFO - 127.0.0.1 - - [29/May/2025 10:56:24] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:29,068 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:56:29,069 - INFO - 127.0.0.1 - - [29/May/2025 10:56:29] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:34,388 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:56:34,390 - INFO - 127.0.0.1 - - [29/May/2025 10:56:34] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:39,076 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:56:39,077 - INFO - 127.0.0.1 - - [29/May/2025 10:56:39] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:44,385 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:56:44,386 - INFO - 127.0.0.1 - - [29/May/2025 10:56:44] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:49,071 - INFO - ✅ Solicitud exitosa a: http://localhost:5001/info
+2025-05-29 10:56:49,073 - INFO - 127.0.0.1 - - [29/May/2025 10:56:49] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:56:54,376 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:56:54,378 - INFO - 127.0.0.1 - - [29/May/2025 10:56:54] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:57:09,339 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:57:09,340 - INFO - 127.0.0.1 - - [29/May/2025 10:57:09] "GET /info HTTP/1.1" 200 -
+2025-05-29 10:57:09,602 - INFO - ✅ Solicitud exitosa a: http://localhost:5002/info
+2025-05-29 10:57:09,603 - INFO - 127.0.0.1 - - [29/May/2025 10:57:09] "GET /info HTTP/1.1" 200 -
